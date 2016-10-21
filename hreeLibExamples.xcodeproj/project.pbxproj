@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45695254D0D8637FF865598C /* libPods-hreeLibExamples.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 935BE4F62C3FB208C5AE7100 /* libPods-hreeLibExamples.a */; };
+		5EBFBF4A5FC55CF07B6FB4FF /* libPods-hreeLibExamplesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 735C9DFAE6E0EB3E526C14BF /* libPods-hreeLibExamplesTests.a */; };
+		6748071E10F9FDA1641E15E8 /* libPods-hreeLibExamplesUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F669AD8BDFD684D02DCB8328 /* libPods-hreeLibExamplesUITests.a */; };
 		F254F7E61DB9C0B8000428AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F254F7E51DB9C0B8000428AA /* main.m */; };
 		F254F7E91DB9C0B8000428AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F254F7E81DB9C0B8000428AA /* AppDelegate.m */; };
 		F254F7EC1DB9C0B8000428AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F254F7EB1DB9C0B8000428AA /* ViewController.m */; };
@@ -15,6 +18,8 @@
 		F254F7F41DB9C0B8000428AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F254F7F21DB9C0B8000428AA /* LaunchScreen.storyboard */; };
 		F254F7FF1DB9C0B8000428AA /* hreeLibExamplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F254F7FE1DB9C0B8000428AA /* hreeLibExamplesTests.m */; };
 		F254F80A1DB9C0B8000428AA /* hreeLibExamplesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F254F8091DB9C0B8000428AA /* hreeLibExamplesUITests.m */; };
+		F254F81B1DB9C237000428AA /* MBProgressHUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F254F8191DB9C237000428AA /* MBProgressHUDViewController.m */; };
+		F254F81C1DB9C237000428AA /* MBProgressHUDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F254F81A1DB9C237000428AA /* MBProgressHUDViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EB74C21AF06BC5F42F534F3 /* Pods-hreeLibExamplesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hreeLibExamplesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hreeLibExamplesUITests/Pods-hreeLibExamplesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		39DE29A2CAB9A394A322A3A9 /* Pods-hreeLibExamplesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hreeLibExamplesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hreeLibExamplesUITests/Pods-hreeLibExamplesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		42E358829801F2CD1AE2A98E /* Pods-hreeLibExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hreeLibExamples.release.xcconfig"; path = "Pods/Target Support Files/Pods-hreeLibExamples/Pods-hreeLibExamples.release.xcconfig"; sourceTree = "<group>"; };
+		6B871B77F369D54EE829963C /* Pods-hreeLibExamplesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hreeLibExamplesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hreeLibExamplesTests/Pods-hreeLibExamplesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		735C9DFAE6E0EB3E526C14BF /* libPods-hreeLibExamplesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hreeLibExamplesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		935BE4F62C3FB208C5AE7100 /* libPods-hreeLibExamples.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hreeLibExamples.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB4AAF3504A617DEAC2D809 /* Pods-hreeLibExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hreeLibExamples.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hreeLibExamples/Pods-hreeLibExamples.debug.xcconfig"; sourceTree = "<group>"; };
+		DA857CFD3C9D6D1C921F7B39 /* Pods-hreeLibExamplesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hreeLibExamplesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hreeLibExamplesTests/Pods-hreeLibExamplesTests.release.xcconfig"; sourceTree = "<group>"; };
 		F254F7E11DB9C0B8000428AA /* hreeLibExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hreeLibExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F254F7E51DB9C0B8000428AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F254F7E71DB9C0B8000428AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +64,10 @@
 		F254F8051DB9C0B8000428AA /* hreeLibExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hreeLibExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F254F8091DB9C0B8000428AA /* hreeLibExamplesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hreeLibExamplesUITests.m; sourceTree = "<group>"; };
 		F254F80B1DB9C0B8000428AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F254F8181DB9C237000428AA /* MBProgressHUDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUDViewController.h; sourceTree = "<group>"; };
+		F254F8191DB9C237000428AA /* MBProgressHUDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUDViewController.m; sourceTree = "<group>"; };
+		F254F81A1DB9C237000428AA /* MBProgressHUDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBProgressHUDViewController.xib; sourceTree = "<group>"; };
+		F669AD8BDFD684D02DCB8328 /* libPods-hreeLibExamplesUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hreeLibExamplesUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45695254D0D8637FF865598C /* libPods-hreeLibExamples.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EBFBF4A5FC55CF07B6FB4FF /* libPods-hreeLibExamplesTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +91,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6748071E10F9FDA1641E15E8 /* libPods-hreeLibExamplesUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		037A9A8E761CCB1F8C6DEA67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDB4AAF3504A617DEAC2D809 /* Pods-hreeLibExamples.debug.xcconfig */,
+				42E358829801F2CD1AE2A98E /* Pods-hreeLibExamples.release.xcconfig */,
+				6B871B77F369D54EE829963C /* Pods-hreeLibExamplesTests.debug.xcconfig */,
+				DA857CFD3C9D6D1C921F7B39 /* Pods-hreeLibExamplesTests.release.xcconfig */,
+				39DE29A2CAB9A394A322A3A9 /* Pods-hreeLibExamplesUITests.debug.xcconfig */,
+				1EB74C21AF06BC5F42F534F3 /* Pods-hreeLibExamplesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB4883E0A2AEDD44F732D097 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				935BE4F62C3FB208C5AE7100 /* libPods-hreeLibExamples.a */,
+				735C9DFAE6E0EB3E526C14BF /* libPods-hreeLibExamplesTests.a */,
+				F669AD8BDFD684D02DCB8328 /* libPods-hreeLibExamplesUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F254F7D81DB9C0B8000428AA = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +128,8 @@
 				F254F7FD1DB9C0B8000428AA /* hreeLibExamplesTests */,
 				F254F8081DB9C0B8000428AA /* hreeLibExamplesUITests */,
 				F254F7E21DB9C0B8000428AA /* Products */,
+				037A9A8E761CCB1F8C6DEA67 /* Pods */,
+				DB4883E0A2AEDD44F732D097 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +146,7 @@
 		F254F7E31DB9C0B8000428AA /* hreeLibExamples */ = {
 			isa = PBXGroup;
 			children = (
+				F254F8171DB9C1F5000428AA /* MBProgressHUD */,
 				F254F7E71DB9C0B8000428AA /* AppDelegate.h */,
 				F254F7E81DB9C0B8000428AA /* AppDelegate.m */,
 				F254F7EA1DB9C0B8000428AA /* ViewController.h */,
@@ -140,6 +186,16 @@
 			path = hreeLibExamplesUITests;
 			sourceTree = "<group>";
 		};
+		F254F8171DB9C1F5000428AA /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F254F8181DB9C237000428AA /* MBProgressHUDViewController.h */,
+				F254F8191DB9C237000428AA /* MBProgressHUDViewController.m */,
+				F254F81A1DB9C237000428AA /* MBProgressHUDViewController.xib */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F254F80E1DB9C0B8000428AA /* Build configuration list for PBXNativeTarget "hreeLibExamples" */;
 			buildPhases = (
+				D5D80E8CE8C7C655ECDB4AFB /* [CP] Check Pods Manifest.lock */,
 				F254F7DD1DB9C0B8000428AA /* Sources */,
 				F254F7DE1DB9C0B8000428AA /* Frameworks */,
 				F254F7DF1DB9C0B8000428AA /* Resources */,
+				868D169935DAB013A79FB95E /* [CP] Embed Pods Frameworks */,
+				8C9C18130623E258285E0BD5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F254F8111DB9C0B8000428AA /* Build configuration list for PBXNativeTarget "hreeLibExamplesTests" */;
 			buildPhases = (
+				CD662FC0E0D599F027CFCCB3 /* [CP] Check Pods Manifest.lock */,
 				F254F7F61DB9C0B8000428AA /* Sources */,
 				F254F7F71DB9C0B8000428AA /* Frameworks */,
 				F254F7F81DB9C0B8000428AA /* Resources */,
+				522ED215B7268B674BFC5FF7 /* [CP] Embed Pods Frameworks */,
+				FACB24D99431873648653EFB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F254F8141DB9C0B8000428AA /* Build configuration list for PBXNativeTarget "hreeLibExamplesUITests" */;
 			buildPhases = (
+				7CD8135DB936D50F563066CA /* [CP] Check Pods Manifest.lock */,
 				F254F8011DB9C0B8000428AA /* Sources */,
 				F254F8021DB9C0B8000428AA /* Frameworks */,
 				F254F8031DB9C0B8000428AA /* Resources */,
+				FBB4989D53BEFBE962649B6F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,6 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F254F81C1DB9C237000428AA /* MBProgressHUDViewController.xib in Resources */,
 				F254F7F41DB9C0B8000428AA /* LaunchScreen.storyboard in Resources */,
 				F254F7F11DB9C0B8000428AA /* Assets.xcassets in Resources */,
 				F254F7EF1DB9C0B8000428AA /* Main.storyboard in Resources */,
@@ -271,11 +336,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		522ED215B7268B674BFC5FF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hreeLibExamplesTests/Pods-hreeLibExamplesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CD8135DB936D50F563066CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		868D169935DAB013A79FB95E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hreeLibExamples/Pods-hreeLibExamples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C9C18130623E258285E0BD5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hreeLibExamples/Pods-hreeLibExamples-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD662FC0E0D599F027CFCCB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5D80E8CE8C7C655ECDB4AFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FACB24D99431873648653EFB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hreeLibExamplesTests/Pods-hreeLibExamplesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBB4989D53BEFBE962649B6F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hreeLibExamplesUITests/Pods-hreeLibExamplesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F254F7DD1DB9C0B8000428AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F254F81B1DB9C237000428AA /* MBProgressHUDViewController.m in Sources */,
 				F254F7EC1DB9C0B8000428AA /* ViewController.m in Sources */,
 				F254F7E91DB9C0B8000428AA /* AppDelegate.m in Sources */,
 				F254F7E61DB9C0B8000428AA /* main.m in Sources */,
@@ -425,6 +614,7 @@
 		};
 		F254F80F1DB9C0B8000428AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDB4AAF3504A617DEAC2D809 /* Pods-hreeLibExamples.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6SKRWCR7JS;
@@ -437,6 +627,7 @@
 		};
 		F254F8101DB9C0B8000428AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E358829801F2CD1AE2A98E /* Pods-hreeLibExamples.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6SKRWCR7JS;
@@ -449,6 +640,7 @@
 		};
 		F254F8121DB9C0B8000428AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B871B77F369D54EE829963C /* Pods-hreeLibExamplesTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 6SKRWCR7JS;
@@ -462,6 +654,7 @@
 		};
 		F254F8131DB9C0B8000428AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA857CFD3C9D6D1C921F7B39 /* Pods-hreeLibExamplesTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 6SKRWCR7JS;
@@ -475,6 +668,7 @@
 		};
 		F254F8151DB9C0B8000428AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39DE29A2CAB9A394A322A3A9 /* Pods-hreeLibExamplesUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 6SKRWCR7JS;
 				INFOPLIST_FILE = hreeLibExamplesUITests/Info.plist;
@@ -487,6 +681,7 @@
 		};
 		F254F8161DB9C0B8000428AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EB74C21AF06BC5F42F534F3 /* Pods-hreeLibExamplesUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 6SKRWCR7JS;
 				INFOPLIST_FILE = hreeLibExamplesUITests/Info.plist;
@@ -516,6 +711,7 @@
 				F254F8101DB9C0B8000428AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F254F8111DB9C0B8000428AA /* Build configuration list for PBXNativeTarget "hreeLibExamplesTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +720,7 @@
 				F254F8131DB9C0B8000428AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F254F8141DB9C0B8000428AA /* Build configuration list for PBXNativeTarget "hreeLibExamplesUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +729,7 @@
 				F254F8161DB9C0B8000428AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
